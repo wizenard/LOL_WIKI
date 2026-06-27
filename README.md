@@ -1,32 +1,71 @@
-﻿# 英雄联盟 — 全英雄技能总览
+<div align="center">
 
-一个纯静态的英雄联盟英雄技能查看器，收录所有英雄的技能图标、技能说明和官方演示视频，支持按位置/职业快速筛选。
+<img src="https://img.shields.io/badge/LOL_WIKI-英雄联盟技能总览-fc0?style=for-the-badge&logo=riotgames&logoColor=white" alt="LOL WIKI">
 
-## 功能
+<h1>英雄联盟 · 全英雄技能总览</h1>
 
-- **英雄浏览** — 侧边栏列出全部英雄，点击即可查看技能详情
-- **标签筛选** — 按刺客、战士、法师、射手、辅助、坦克等职业快速过滤
-- **搜索** — 支持英雄名称搜索
-- **技能展示** — 每个英雄展示被动 + Q/W/E/R 技能，含图标和文字说明
-- **技能视频** — 使用 Riot 官方在线视频地址，无需下载
-- **自带图标** — 仓库内置英雄头像和技能图标，不依赖外部图床
+<p>170+ 英雄的技能图标、说明、演示视频，打开浏览器就能用</p>
 
-## 快速使用
+<p>
+  <img src="https://img.shields.io/badge/纯前端-无依赖-blueviolet?style=flat-square" alt="vanilla">
+  <img src="https://img.shields.io/badge/英雄-170+-e74c3c?style=flat-square" alt="heroes">
+  <img src="https://img.shields.io/badge/视频-Riot官方-green?style=flat-square" alt="videos">
+  <img src="https://img.shields.io/badge/图标-仓库内置-3498db?style=flat-square" alt="icons">
+</p>
 
-部署到 **GitHub Pages** 即可直接访问：
+<a href="https://wizenard.github.io/LOL_WIKI"><img src="https://img.shields.io/badge/在线访问-22c55e?style=for-the-badge" alt="live"></a>
 
-1. 仓库 Settings → Pages → Source 选 `Deploy from a branch`
-2. Branch 选 `master`，目录选 `/ (root)`
-3. 保存后等待一两分钟，访问 `https://wizenard.github.io/LOL_WIKI`
+---
 
-或者本地直接用浏览器打开 `index.html`。
+</div>
 
-## 文件说明
+## 能做什么
 
-| 文件 | 说明 |
-|---|---|
-| `index.html` | 主页面入口 |
-| `champions_github.html` | 备用入口（内容相同） |
-| `lol_github_assets/champions/` | 英雄头像图片 |
-| `lol_github_assets/spells/` | 技能图标图片 |
-| `.nojekyll` | 确保 GitHub Pages 正确处理静态文件 |
+侧边栏放了全部英雄，点哪个看哪个。支持按职业筛选——刺客、战士、法师、射手、辅助、坦克，想看哪类直接点。搜索框输入名字也能快速定位。
+
+每个英雄展示被动 + Q/W/E/R 五个技能，配上图标和说明文字。技能演示视频用的 Riot 官方地址，点开就能播。
+
+所有头像和技能图标都放在仓库里，不依赖外部图床，断网也能用。
+
+---
+
+## 怎么用
+
+### 打开在线版
+
+直接访问：**https://wizenard.github.io/LOL_WIKI**
+
+### 本地打开
+
+```bash
+git clone https://github.com/wizenard/LOL_WIKI.git
+# 进文件夹双击 index.html 就行
+```
+
+### 自己部署一份
+
+1. Fork 这个仓库
+2. 进 Settings → Pages
+3. Source 选 `Deploy from a branch`
+4. Branch 选 `master`，目录选 `/(root)`
+5. 保存，等一两分钟就能访问了
+
+---
+
+## 仓库里有什么
+
+| 文件 | 干嘛的 |
+|------|--------|
+| `index.html` | 主页面 |
+| `champions_github.html` | 备用入口，内容一样 |
+| `lol_github_assets/champions/` | 英雄头像 |
+| `lol_github_assets/spells/` | 技能图标 |
+| `.nojekyll` | 让 GitHub Pages 正常工作 |
+
+---
+
+<div align="center">
+
+MIT © [wizenard](https://github.com/wizenard)
+
+</div>
